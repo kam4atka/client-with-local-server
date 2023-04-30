@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 500px;
+  padding: 10px 5px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.cell {
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.cell:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.cell__title {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+}

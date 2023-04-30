@@ -1,0 +1,19 @@
+{
+  "name": "client-with-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start.server": "json-server --watch ./data/posts.json",
+    "start.client": "browser-sync start --server --port 8080 --no-ui --files \"src**/*.js\"",
+    "start": "npm run start.client & npm run start.server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "2.29.1",
+    "json-server": "0.17.3"
+  }
+}

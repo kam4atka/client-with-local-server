@@ -1,0 +1,19 @@
+# OS's files
+.DS_Store
+Thumbs.db
+
+# Editor's files
+.idea
+.vscode
+*.sublime*
+
+# Deferent images files
+*.ai
+*.log
+*.pdf
+*.psd
+
+# NPM files
+node_modules/
+package-lock.json
+npm-debug.*
